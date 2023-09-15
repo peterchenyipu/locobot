@@ -1,0 +1,53 @@
+repositories:
+  interbotix_ros_core:
+    type: git
+    url: git@github.com:peterchenyipu/interbotix_ros_core.git
+    version: humble
+  interbotix_ros_rovers:
+    type: git
+    url: git@github.com:peterchenyipu/interbotix_ros_rovers.git
+    version: feature_locbot_cmu
+  interbotix_ros_toolboxes:
+    type: git
+    url: git@github.com:peterchenyipu/interbotix_ros_toolboxes.git
+    version: feature_locobot_cmu
+  kobuki/cmd_vel_mux:
+    type: git
+    url: https://github.com/kobuki-base/cmd_vel_mux.git
+    version: devel
+  kobuki/ecl_core:
+    type: git
+    url: https://github.com/stonier/ecl_core.git
+    version: devel
+  kobuki/ecl_lite:
+    type: git
+    url: https://github.com/stonier/ecl_lite.git
+    version: devel
+  kobuki/kobuki_core:
+    type: git
+    url: https://github.com/kobuki-base/kobuki_core.git
+    version: devel
+  kobuki/kobuki_ros:
+    type: git
+    url: https://github.com/kobuki-base/kobuki_ros.git
+    version: devel
+  kobuki/kobuki_ros_interfaces:
+    type: git
+    url: https://github.com/kobuki-base/kobuki_ros_interfaces.git
+    version: devel
+  kobuki/sophus:
+    type: git
+    url: https://github.com/stonier/sophus.git
+    version: release/1.2.x
+  kobuki/velocity_smoother:
+    type: git
+    url: https://github.com/kobuki-base/velocity_smoother.git
+    version: devel
+  moveit_visual_tools:
+    type: git
+    url: https://github.com/ros-planning/moveit_visual_tools.git
+    version: ros2
+  sllidar_ros2:
+    type: git
+    url: https://github.com/Slamtec/sllidar_ros2.git
+    version: main
